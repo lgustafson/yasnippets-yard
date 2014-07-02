@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: @!attribute [...] ...
+# expand-env: ((yas-indent-line 'auto) (yas-also-auto-indent-first-line 't))
 # key: @!att
 # group: YARD
 # condition: (string-match "^\s*#"  (thing-at-point 'line))
