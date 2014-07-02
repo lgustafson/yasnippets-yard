@@ -21,7 +21,7 @@ Installation
 
 Clone the repository into a directory of your choosing:
 
-    git clone https://github.com/lgustafson/yasnippets-yard ~/.emacs.d/mysnippets
+    git clone https://github.com/lgustafson/yasnippets-yard.git ~/.emacs.d/mysnippets
 
 In .emacs, add the snippet directory to your yasnippets:
 
