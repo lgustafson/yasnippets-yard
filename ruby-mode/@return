@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: @return [...] ...
+# key: @ret
+# group: YARD
+# condition: (string-match "^\s*#"  (thing-at-point 'line))
+# --
+@return [${1:TYPE}] ${2:DESCRIPTION}
+$0

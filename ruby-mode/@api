@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: @api ...
+# key: @api
+# group: YARD
+# condition: (string-match "^\s*#"  (thing-at-point 'line))
+# --
+@api ${1:DESCRIPTION}
+$0

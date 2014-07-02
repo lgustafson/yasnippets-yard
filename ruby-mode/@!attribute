@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: @!attribute [...] ...
+# key: @!att
+# group: YARD
+# condition: (string-match "^\s*#"  (thing-at-point 'line))
+# --
+@!attribute [${1:$$(yas-choose-value '("rw" "r" "w"))}] ${2:NAME}
+$0

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: @overload ...(...)
+# key: @ove
+# group: YARD
+# condition: (string-match "^\s*#"  (thing-at-point 'line))
+# --
+@overload ${1:SIGNATURE}(${2:PARAMETERS})
+$0

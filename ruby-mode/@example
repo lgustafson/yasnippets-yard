@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: @example ...
+# key: @exa
+# group: YARD
+# condition: (string-match "^\s*#"  (thing-at-point 'line))
+# --
+@example ${1:TITLE}
+$0

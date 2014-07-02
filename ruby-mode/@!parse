@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: @!parse [...] ...
+# key: @!par
+# group: YARD
+# condition: (string-match "^\s*#"  (thing-at-point 'line))
+# --
+@!parse [${1:LANGUAGE}] ${2:CODE}
+$0

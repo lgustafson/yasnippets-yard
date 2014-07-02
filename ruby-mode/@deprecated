@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: @deprecated ...
+# key: @dep
+# group: YARD
+# condition: (string-match "^\s*#"  (thing-at-point 'line))
+# --
+@deprecated ${1:DESCRIPTION}
+$0

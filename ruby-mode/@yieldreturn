@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: @yieldreturn [...] ...
+# key: @yldret
+# group: YARD
+# condition: (string-match "^\s*#"  (thing-at-point 'line))
+# --
+@yieldreturn [${1:TYPES}] ${2:DESCRIPTION}
+$0

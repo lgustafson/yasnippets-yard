@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: @!method ...(...)
+# key: @!met
+# group: YARD
+# condition: (string-match "^\s*#"  (thing-at-point 'line))
+# --
+@!method ${1:NAME}(${2:PARAMETERS})
+$0
